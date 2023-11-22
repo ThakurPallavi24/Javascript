@@ -5,14 +5,8 @@ let v = age >= 18 ? "You are elligible" : "Not elligible";
 
 console.log(v);
 
-let b = 12;
-let message;
-if (b > 5) {
-  message = "go to school";
-} else if (b > 25) {
-  message = "Do Job";
-} else {
-  message = "You are a kid ";
-}
+//second question
+let b = 32;
+let message = b > 25 ? "Do Job" : b > 5 ? "go to school" : "You are a kid";
 
 console.log(message);
