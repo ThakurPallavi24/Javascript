@@ -1,13 +1,10 @@
-//Nested if-else
+//if-else
 
-let b = 12;
-let message;
-if (b > 5) {
-  message = "go to school";
-} else if (b > 25) {
-  message = "Do Job";
+var b = 12;
+var message;
+if (b < 5) {
+  message = "You can't go to school";
 } else {
-  message = "You are a kid ";
+  message = "You can go to scool";
 }
-
 console.log(message);
