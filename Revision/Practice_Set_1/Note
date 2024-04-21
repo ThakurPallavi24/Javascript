@@ -1,0 +1,7 @@
+Here I learn the uses of following things:
+
+createElement : It is used to create a new HTML element in the DOM.
+
+textContent : It is used to get and set plain text content of HTML element ,excluding any html tags.
+
+appendChild : It is used to dynamically insert content into a webpage
