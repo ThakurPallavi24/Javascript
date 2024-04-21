@@ -1,0 +1,69 @@
+//Simple practice of javascript .
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bulb</title>
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+
+      .bulb-sec {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        background-color: pink;
+      }
+      h2 {
+        color: black;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      }
+
+      .img-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+      }
+      button {
+        background-color: rgb(164, 162, 240);
+        color: black;
+        border: none;
+        border-radius: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        padding: 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bulb-sec">
+      <h2>JavaScript Basic practice</h2>
+      <div class="img-btn">
+        <button
+          class="onBtn"
+          onclick="document.getElementById('bulb').src='https://5.imimg.com/data5/WL/SG/MY-8835990/10w-gls-light-bulb-500x500.jpg'"
+        >
+          Light On
+        </button>
+        <img
+          id="bulb"
+          src="https://www.kindpng.com/picc/m/99-999603_png-light-bulb-off-transparent-png.png"
+          alt="Bulb-img"
+          width="200"
+        />
+        <button
+          onclick="document.getElementById('bulb').src='https://www.kindpng.com/picc/m/99-999603_png-light-bulb-off-transparent-png.png'"
+        >
+          Light Off
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
